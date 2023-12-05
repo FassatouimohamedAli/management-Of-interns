@@ -1,0 +1,208 @@
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.main-head {
+    height: 150px;
+    background: #FFF;
+
+}
+
+.sidenav {
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+
+.main {
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login-form {
+        margin-top: 10%;
+    }
+
+    .register-form {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        margin-left: 40%;
+    }
+
+    .sidenav {
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form {
+        margin-top: 80%;
+    }
+
+    .register-form {
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text {
+    margin-top: 20%;
+    padding: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.navbar-collapse:hover {
+    font-weight: 500;
+}
+
+.login-main-text h2 {
+    font-weight: 300;
+}
+
+.btn-black {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+a {
+    color: antiquewhite;
+}
+
+a:hover {
+    color: rgb(154, 154, 246);
+}
+
+.dropdown {
+    margin-right: 100px;
+}
+
+
+
+.navbar .brand {
+    padding: 0 100px;
+}
+
+.brand img {
+    margin-top: 5px
+}
+
+@media (max-width:768px) {
+    .brand img {
+        margin-bottom: 5px
+    }
+}
+
+.navbar-inner {
+    height: 80px
+}
+
+@media (min-width:767px) {
+    .registration {
+        max-width: 400px;
+    }
+}
+
+#content {
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    /* aligne le contenu au centre */
+    margin: 100 auto;
+
+}
+
+th {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+}
+
+#add {
+    float: left;
+    text-align: center;
+    padding: 5px 11px 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(152, 152, 152);
+    border: 1px solid #868686;
+    width: 200px;
+}
+
+#print-button {
+
+    text-align: center;
+    padding: 1px 3x 2px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+    width: 120px;
+}
+
+#print-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(152, 152, 152);
+    border: 1px solid #868686;
+}
+
+#add:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+}
+
+#search-form {
+    float: right;
+}
+
+form.nosubmit {
+    border: none;
+    padding: 0;
+
+}
+
+input.nosubmit {
+    width: 200px;
+    border: 1px solid #c8c8c8;
+    display: block;
+    padding: 5px 2px 5px 40px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+}
+
+.modal-content {
+    background-color: #fbfbfb;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #929292;
+    width: 70%;
+}
+
+th {
+
+    font-style: italic;
+    color: white;
+    background-color: #2fbaf6;
+    text-transform: capitalize;
+}
+
+td {
+    background-color: #a0dffa;
+    text-transform: capitalize;
+}
